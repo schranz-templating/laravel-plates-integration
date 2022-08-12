@@ -6,7 +6,7 @@ return [
     | Cache directory
     |--------------------------------------------------------------------------
     |
-    | Using directory for the cache files of handlebars templating files.
+    | Using directory for the cache files of plates templating files.
     */
 
     'cache' => env(
@@ -19,7 +19,7 @@ return [
     | Paths
     |--------------------------------------------------------------------------
     |
-    | Directories where the handlebars templates can be found.
+    | Directories where the plates templates can be found.
     */
     'paths' => [
         resource_path('views'),
